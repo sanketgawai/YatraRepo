@@ -47,9 +47,9 @@ public class NevigationTest{
 	
 	@BeforeTest
 	@Parameters("browser")
-	public void openBrowser(String b)//is string me testng se value aa rahi hai firefox
-	{
-	String browserName=b;
+	public void openBrowser(String browserName)//is string me testng se value aa rahi hai firefox
+	{//kaido
+	//String browserName=b;
 		if(browserName.equals("chrome"))
 		{
 			WebDriverManager.chromedriver().setup();
